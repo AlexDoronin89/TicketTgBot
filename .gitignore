@@ -3,3 +3,6 @@
 ################################################################################
 
 /TicketTgBot/obj
+/.vs/TicketTgBot/v17
+/.vs
+/TicketTgBot/bin/Debug/net6.0

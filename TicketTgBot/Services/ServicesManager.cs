@@ -16,6 +16,7 @@ public class ServicesManager
         _methods[States.WaitingUserName] = mainService.ProcessUserName;
         _methods[States.WaitingUserAge] = mainService.ProcessUserAge;
         _methods[States.WaitingUserPlace] = mainService.ProcessUserPlace;
+        _methods[States.WaitingAccept] = mainService.ProcessAccept;
     }
 
     public BotMessage ProcessBotUpdate(string textData, TransmittedData transmittedData)

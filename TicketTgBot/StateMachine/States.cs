@@ -6,4 +6,5 @@ public class States
     public static string WaitingUserName { get; } = "WaitingUserName";
     public static string WaitingUserAge { get; } = "WaitingUserAge";
     public static string WaitingUserPlace { get; } = "WaitingUserPlace";
+    public static string WaitingAccept { get; } = "WaitingAccept";
 }
