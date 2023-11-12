@@ -28,4 +28,9 @@ public class DataStorage
     {
         return _data[key];
     }
+
+    public T Get<T>(string key)
+    {
+        return (T)_data[key];
+    }
 }
