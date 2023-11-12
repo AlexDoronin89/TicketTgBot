@@ -20,6 +20,7 @@ public class ServicesManager
 
     public BotMessage ProcessBotUpdate(string textData, TransmittedData transmittedData)
     {
+        
         Func<string, TransmittedData, BotMessage> serviceMethod = _methods[transmittedData.State];
         return serviceMethod.Invoke(textData, transmittedData);
     }
